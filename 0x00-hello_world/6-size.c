@@ -1,23 +1,43 @@
 #include <stdio.h>
+
+
+
 /**
- * main - print the string in the function
  *
- *description: using the main funtion
- *this program
- */
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
+
 int main(void)
+
 {
-char c;
-int i;
-long li;
-long long lli;
-float f;
 
-printf("size of a char: %1d byte(s)\n", sizeof(c));
-printf("size of a int: %1d byte(s)\n", sizeof(i));
-printf("size of a long int: %1d byte(s)\n", sizeof(li));
-printf("size of a long long: %1d byte(s)\n", sizeof(lli));
-printf("size of a float: %1d byte(s)\n", sizeof(f));
+		int a;
 
-return 0;
+			long int b;
+
+				long long int c;
+
+					char d;
+
+						float f;
+
+
+
+							printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
+
+								printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+
+									printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
+
+										printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+
+											printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+
+												return (0);
+
 }
