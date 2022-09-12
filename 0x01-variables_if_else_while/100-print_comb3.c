@@ -17,12 +17,18 @@ int main(void)
 	for (i = '0'; i < '9'; i++)
 	{
 		for (k = '1'; k <= '9'; k++)
-			if (i <= k && i != k)
 		{
-			putchar(i);
-			putchar(k);
-			putchar(',');
-			putchar(' ');
+			if (i <= k && i != k)
+			{
+				putchar(i);
+				putchar(k);
+					if (i == '8' && k == '9')
+						continue;
+					{
+						putchar(',');
+						putchar(' ');
+					}
+			}
 		}
 	}
 	putchar('\n');
