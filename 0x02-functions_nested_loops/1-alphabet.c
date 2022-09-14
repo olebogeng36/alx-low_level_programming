@@ -2,9 +2,8 @@
 #include "main.h"
 
 /**
- * main - print the alphabet in lowercase
- * description: main funtion
  * print_alphabet - function to print abc
+ *
  * Return: 0
  */
 
