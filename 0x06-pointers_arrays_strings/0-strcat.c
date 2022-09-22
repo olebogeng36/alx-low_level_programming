@@ -2,19 +2,20 @@
 #include "main.h"
 
 /**
- *strcat - conncatenate two strings
- *@c: The character to print
- *
- *Return: *dust
+ *_strcat - copy two srings
+ *@dest: description
+ *@src: source
+ *Return: value dust
  */
 
 char *_strcat(char *dest, char *src)
 {
-	*dest = "hello";
-	*src = "world";
+	int i;
 
-	strcat(*dest, *src);
-	_putchar(*dest);
-
-	return (*dest);
+	for (i = 0; i < src[i]; i++)
+	{
+		dest[i] = src[i];
+		dest[i] = '\0';
+	}
+	return (dest);
 }
