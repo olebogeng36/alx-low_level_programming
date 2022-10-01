@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * fuunction - 'main'
+ * main - print the output
  * @argc: argument count
  * @argv: argument
  * Return: 'main'
