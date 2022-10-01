@@ -9,6 +9,14 @@
  */
 int main (int argc, char *argv[])
 {
-	printf("%d\n", argc);
+	int i;
+	int results = 1;
+
+	for (i = 0; i < argc; i++)
+	{
+		int x = strtol(argv[i], NULL, 10);
+		results = x;
+		printf("%d", results);
+	}
 	return (0);
 }
