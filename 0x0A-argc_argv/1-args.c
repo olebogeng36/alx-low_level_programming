@@ -7,14 +7,8 @@
  * main return: success
  * Return: 'main'
  */
-int main (int argc, char *argv[])
+int main (int argc, char __attribute__((unused)) *argv[])
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-	{
-		int results = strtol(argv[i], NULL, 10);
-		printf("%d\n", results);
-	}
+	printf("%d\n", argc -1);
 	return (0);
 }
