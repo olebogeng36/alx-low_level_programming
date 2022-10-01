@@ -12,11 +12,12 @@ int main(int argc, char *argv[])
 {
 	int i;
 	int results = 1;
-	
+
 
 	for (i = 1; i < argc; i++)
 	{
 		int x = strtol(argv[i], NULL, 10);
+
 		results = results * x;
 		printf("%d\n", results);
 	}
