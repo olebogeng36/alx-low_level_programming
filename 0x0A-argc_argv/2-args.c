@@ -1,16 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * function main - prints its name, followed by a new line
- * @argc: count arguments
- * @argv: argumets
+ * fuunction - 'main'
+ * @argc: argument count
+ * @argv: argument
  * Return: 'main'
  */
+
 int main(int argc, char *argv[])
 {
 	int i;
 
-	for (i = 0; i < argc; i++)
+	for (i  = 0; i < argc; i++)
 	{
 		printf("%s\n", argv[i]);
 	}
