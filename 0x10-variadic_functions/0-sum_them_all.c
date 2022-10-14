@@ -13,12 +13,12 @@ int sum_them_all(const unsigned int n, ...);
 {
 	var_list ap;
 
-	var_start(ap, args);
+	var_start(ap, n);
 
-	unsigned int n;
+	unsigned int i;
 	unsigned int sum = 0;
 
-	for (n = 0; n < args; n++)
+	for (i = 0; i < n; i++)
 		if (n == 0)
 		{
 			return (0);
